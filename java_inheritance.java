@@ -4,7 +4,6 @@ class Book {
     double price;
 
 // Constructor
-
     Book(String title, String author, double price) {
         this.title = title;
         this.author = author;
