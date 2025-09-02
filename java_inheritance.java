@@ -12,15 +12,15 @@ class Book {
 
 // Method to display details
     void displayDetails() {
-        System.out.println(&quot;Title: &quot; + title);
-        System.out.println(&quot;Author: &quot; + author);
-        System.out.println(&quot;Price: ₹&quot; + price);
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Price: " + price);
     }
 }
 
 public class LibraryDemo {
     public static void main(String[] args) {
-        Book b1 = new Book(&quot;The Alchemist&quot;, &quot;Paulo Coelho&quot;, 450);
+        Book b1 = new Book("The Alchemist", "Paulo Coelho", 450);
         b1.displayDetails();
     }
 }
